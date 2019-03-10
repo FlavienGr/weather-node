@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather-App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/img/weather.png" type="image/png">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        {{>header}}
+        <div class="container">
+
+
+
+
+            <div class="display">
+                <div class="display__box">
+                    {{ error }}
+                    <div class="form">
+                        <form>
+                            <input type="text" name="text" placeholder="Enter a city name">
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                    <div class="display__forecast"></div>
+                    <div class="display__location"></div>
+                </div>
+            </div>
+        </div>
+        {{> footer }}
+        <script src="/js/index.js"></script>
+</body>
+
+</html>
