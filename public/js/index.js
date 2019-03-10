@@ -20,7 +20,7 @@ const addDisplayHtml = ({ forecast, location, error }) => {
 
 const fetchForecast = location => {
   axios
-    .get(`http://localhost:3000/weather?address=${location}`)
+    .get(`/weather?address=${location}`)
     .then(response => {
       addDisplayHtml(response.data);
       console.log(response.data);

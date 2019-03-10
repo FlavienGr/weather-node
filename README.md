@@ -4,13 +4,15 @@
 
 Webserver with Node JS
 
-- API = [darksky](https://darksky.net/)
-- API = [Mapbox](https://www.mapbox.com/)
+- API = [darksky](https://darksky.net/) [Mapbox](https://www.mapbox.com/)
 
-<!-- link web: [Weather App]() -->
+link web: [Weather App](https://fg-weather-app.herokuapp.com/)
 
-Html
-Css - Flexbox
-JS
-Node JS
-Handlebars Templetating
+- Html
+- Css - Flexbox
+- JS
+- Axios
+- Node JS
+- Handlebars Templetating
+- Nodemon
+- Request
